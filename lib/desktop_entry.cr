@@ -28,6 +28,6 @@ class DesktopEntry
     end
 
     def launch
-        Process.run "gtk-launch", { basename }
+        Process.run("gtk-launch", { basename })
     end
 end

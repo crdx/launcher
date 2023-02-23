@@ -44,7 +44,7 @@ end
 
 entry = entries[index]
 
-contest.vote entry
-Logger.log entry
+contest.vote(entry)
+Logger.log(entry)
 
 entry.launch
